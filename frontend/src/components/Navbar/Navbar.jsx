@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <Link to="">
-          <img src="/logo.png" alt="Neuracare - Encoder" />
+          <img src="Logo.jpeg" style={{ width: '50px', height: '50px' }} alt="Mindtrack Encoder page" />
         </Link>
       </div>
       <div className="navbar-options">

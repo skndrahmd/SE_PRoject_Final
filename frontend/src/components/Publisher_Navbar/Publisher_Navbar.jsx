@@ -32,7 +32,7 @@ const Publisher_Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <Link to="">
-          <img src="/logo.png" alt="Neuracare - Publisher" />
+          <img src="/Logo.jpeg" style={{ width: '50px', height: '50px' }} alt="MindTrack Publisher" />
         </Link>
       </div>
       <div className="navbar-options">

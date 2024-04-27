@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import axios from "axios"
 import { useNavigate, Link } from "react-router-dom"
 import "./Login.css";
-import imageSrc from "/home/uzair/SE_PRoject_Final/SE_PRoject_Final/frontend/src/assets/Logo.jpeg";
 
 function Login() {
 
@@ -49,7 +48,6 @@ function Login() {
 
     return (
         <div className="Main container ">
-            
             <div className="login">
 
                 <h1>Login</h1>
