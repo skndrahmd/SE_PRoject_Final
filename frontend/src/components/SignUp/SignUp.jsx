@@ -51,12 +51,14 @@ function Login() {
             <h1>Signup</h1>
 
             <form action="POST">
+                <div className = "fields">
                 <input type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email"  />
                 <input type="password" onChange={(e) => { setPassword(e.target.value) }} placeholder="Password" />
                 <input type="text" onChange={(e) => { setFirstName(e.target.value) }} placeholder="First Name" />
                 <input type="text" onChange={(e) => { setLastName(e.target.value) }} placeholder="Last Name" />
                 <input type="text" onChange={(e) => { setRole(e.target.value) }} placeholder="Role" />
                 <input type="submit" onClick={submit} />
+                </div>
 
             </form>
 

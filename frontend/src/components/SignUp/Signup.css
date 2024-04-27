@@ -1,0 +1,54 @@
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Change align-items to center */
+    text-align: center; /* Add text-align to center text content */
+}
+
+.input {
+    margin-bottom: 1rem;
+    font-family: Arial;
+}
+
+.fields {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.input input {
+    width: fit-content;
+    min-width: 500px;
+    height: fit-content;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+    display: block;
+    margin-bottom: 10px; /* Add margin-bottom to create space between input fields */
+}
+
+.or-divider {
+    margin: 20px 0;
+}
+
+.signup-link {
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin-top to center the button */
+}
+
+.submit-btn:hover {
+    background-color: darkgreen;
+}
