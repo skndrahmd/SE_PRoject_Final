@@ -183,7 +183,7 @@ function Encoder() {
       }
     };
     const columnNames = [
-      "first_name",
+      "First Name",
       "last_name",
       "dob",  // Stores date of birth
       "gender",
